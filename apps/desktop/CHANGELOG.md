@@ -1,5 +1,16 @@
 # @openfilm/desktop
 
+## 0.4.2
+
+### Patch Changes
+
+- [#512](https://github.com/openfilm/openfilm/pull/512) [`43ee8ad`](https://github.com/openfilm/openfilm/commit/43ee8ade6124bf6f4aa05a1a818bc1d93ebefbcc) Thanks [@rick-mingyu-liu](https://github.com/rick-mingyu-liu)! - Closing an inspector popup with Escape keeps the selected clip and its controls available.
+
+- [#514](https://github.com/openfilm/openfilm/pull/514) [`ef85bb3`](https://github.com/openfilm/openfilm/commit/ef85bb3aacd212a55578799cfcbc37f592854a49) Thanks [@rick-mingyu-liu](https://github.com/rick-mingyu-liu)! - Videos played through a converted copy keep their source proportions when the clip specifies only its width or height.
+
+- Updated dependencies [[`dcead56`](https://github.com/openfilm/openfilm/commit/dcead56fa00985d31a094603879b75037a213758), [`43ee8ad`](https://github.com/openfilm/openfilm/commit/43ee8ade6124bf6f4aa05a1a818bc1d93ebefbcc), [`b125a3d`](https://github.com/openfilm/openfilm/commit/b125a3d9cdcd44539ba2468eb520e9753b4d5aaa), [`ef85bb3`](https://github.com/openfilm/openfilm/commit/ef85bb3aacd212a55578799cfcbc37f592854a49), [`28ea393`](https://github.com/openfilm/openfilm/commit/28ea393320522ed085332a22e3458dfe0de994ea), [`327ef4c`](https://github.com/openfilm/openfilm/commit/327ef4c86ceab07122a145c0d6d984045af7c295)]:
+  - openfilm@0.4.2
+
 ## 0.4.1
 
 ### Patch Changes

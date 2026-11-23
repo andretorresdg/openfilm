@@ -1,5 +1,21 @@
 # openfilm
 
+## 0.4.2
+
+### Patch Changes
+
+- [#525](https://github.com/openfilm/openfilm/pull/525) [`dcead56`](https://github.com/openfilm/openfilm/commit/dcead56fa00985d31a094603879b75037a213758) Thanks [@HEOJUNFO](https://github.com/HEOJUNFO)! - Captions made of what is said read as the subtitles do when a line has a filler or a false start: "So, uh, we start at eight." is captioned "So, we start at eight.", where it came out as "So,uh,westartateight."
+
+- [#512](https://github.com/openfilm/openfilm/pull/512) [`43ee8ad`](https://github.com/openfilm/openfilm/commit/43ee8ade6124bf6f4aa05a1a818bc1d93ebefbcc) Thanks [@rick-mingyu-liu](https://github.com/rick-mingyu-liu)! - Closing an inspector popup with Escape keeps the selected clip and its controls available.
+
+- [#505](https://github.com/openfilm/openfilm/pull/505) [`b125a3d`](https://github.com/openfilm/openfilm/commit/b125a3d9cdcd44539ba2468eb520e9753b4d5aaa) Thanks [@hobostay](https://github.com/hobostay)! - Fix an infinite loop in Studio's edit-history byte-cap eviction when only the first and last two versions of a tracked file remain.
+
+- [#514](https://github.com/openfilm/openfilm/pull/514) [`ef85bb3`](https://github.com/openfilm/openfilm/commit/ef85bb3aacd212a55578799cfcbc37f592854a49) Thanks [@rick-mingyu-liu](https://github.com/rick-mingyu-liu)! - Videos played through a converted copy keep their source proportions when the clip specifies only its width or height.
+
+- [#528](https://github.com/openfilm/openfilm/pull/528) [`28ea393`](https://github.com/openfilm/openfilm/commit/28ea393320522ed085332a22e3458dfe0de994ea) Thanks [@riverisbuilding](https://github.com/riverisbuilding)! - A transparent video with motion blur (ProRes 4444 or WebM, two or more samples) exports again with ffmpeg 9.1. When the picture turned fully opaque partway through, ffmpeg 9.1 stopped the export with "Frame size or format changed without filter graph reinitialization" and wrote nothing.
+
+- [#524](https://github.com/openfilm/openfilm/pull/524) [`327ef4c`](https://github.com/openfilm/openfilm/commit/327ef4c86ceab07122a145c0d6d984045af7c295) Thanks [@HEOJUNFO](https://github.com/HEOJUNFO)! - Captions of a clip trimmed in the middle of a spoken line say only the words still heard. The last word no longer carries the rest of the line the trim cut off, and a word that starts just before the cut is left to the clip after it.
+
 ## 0.4.1
 
 ### Patch Changes
